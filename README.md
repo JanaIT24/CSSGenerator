@@ -4,15 +4,15 @@
 This is a web application that generates CSS code based on user input. It allows users to customize various aspects of CSS styling such as colors, fonts, margins, and more, providing them with the corresponding CSS code snippet that they can use in their projects.
 
 ## Features
-+User-friendly Interface:The application provides an intuitive interface for users to easily input their desired CSS specifications.
+* User-friendly Interface:The application provides an intuitive interface for users to easily input their desired CSS specifications.
 
-+Customization Options: Users can customize a wide range of CSS properties including colors, fonts, margins, padding, borders, and more.
+* Customization Options: Users can customize a wide range of CSS properties including colors, fonts, margins, padding, borders, and more.
 
-+Live Preview: The application offers a live preview feature, allowing users to see the changes in real-time as they adjust the CSS settings.
+* Live Preview: The application offers a live preview feature, allowing users to see the changes in real-time as they adjust the CSS settings.
 
-+Generated CSS Code: Once users are satisfied with their customizations, they can copy the generated CSS code snippet with a single click.
+* Generated CSS Code: Once users are satisfied with their customizations, they can copy the generated CSS code snippet with a single click.
 
-+Responsive Design: The webpage is designed to be responsive, ensuring optimal viewing and interaction experience across various devices and screen sizes
+* Responsive Design: The webpage is designed to be responsive, ensuring optimal viewing and interaction experience across various devices and screen sizes
 
 ## Technologies Used
 
@@ -24,13 +24,13 @@ This is a web application that generates CSS code based on user input. It allows
 
 ## Usage
 
-+Clone the repository to your local machine.
+* Clone the repository to your local machine.
 
-+Open the index.html file in your web browser.
+* Open the index.html file in your web browser.
 
-+Use the interface to customize the CSS properties.
+* Use the interface to customize the CSS properties.
 
-+Copy the generated CSS code and use it in your project.
+* Copy the generated CSS code and use it in your project.
 
 ## Demo
 
