@@ -1,0 +1,273 @@
+
+@media(max-width:464px){
+
+    .container8 {
+        background-color: rgb(255, 255, 255);
+        width: 1100px;
+        height: 700px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container8 h2 {
+        height: 30px;
+        position: absolute;
+        top: 1%;
+        font-size: medium;
+        font-weight: 600;
+        left: 2%;
+        color: #8e44ad;
+    }
+    .home {
+        height: 20px;
+        position: absolute;
+        top: 0%;
+        right: -10%;
+    }
+
+    .home img {
+        height: 20px;
+    }
+
+    .home img:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    .hex1 {
+        border: 1px solid rgb(216, 214, 214);
+        display: flex;
+        flex-direction: row;
+        padding: 4px;
+        gap: 25px;
+        height: 35px;
+        width: 140px;
+    }
+    
+    
+    .row_row{
+        display: flex;
+        flex-direction: row;
+    }
+    span{
+        position: relative;
+        top:-50%;
+    }
+    #hex_code{
+        position: relative;
+        top: 15%;
+        font-size: large;
+    }
+    #btncopy1:hover,#btncopy2:hover,#btncopy3:hover {
+        background: linear-gradient(341.87deg, rgb(192, 87, 215), rgb(94, 99, 192));
+        transition-duration: 1s;
+    }
+    .red {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 10%;
+        left: 1%;
+        gap: 13px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+    .green {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 12px;
+        position: absolute;
+        top: 22%;
+        left: 0%;
+        padding: 0px 10px;
+    }
+    .blue {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top: 33.5%;
+        left: 0%;
+        gap: 13px;
+        background-color: #fff;
+        padding: 3px 10px;
+    }
+    .opacity {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top:45%;
+        left: 1%;
+        gap: 5px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+    .hex{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top:57%;
+        left: 1%;
+        gap: 20px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+    .red input {
+        width: 150px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .green input {
+        width: 150px;
+        position: relative;
+        margin-top: 5px;
+    }
+    .blue input{
+        width: 150px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .opacity input {
+        width: 150px;
+        position: relative;
+        margin-top: 15px;
+    }
+    .hex input{
+        width: 21px;
+        height: 22px;
+    }
+    #red_value,#green_value,#blue_value{
+        position: relative;
+        left: 4%;
+        top: 13%;
+    }
+    #opacity_value{
+        position: relative;
+        left: 4%;
+        margin-top: 12px;
+    }
+    #hex_code{
+        position: relative;
+        top: 15%;
+        font-size: 16.5px;
+    }
+    .tool1 {
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        border:2px solid rgb(221, 217, 217) ;
+        background-color: #87cefa;
+        position: absolute;
+        top: 9.5%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .tool2 {
+        width: 150px;
+        height: 50px;
+        border:2px solid rgb(221, 217, 217) ;
+        border-radius: 5px;
+        background-color: #87cefa;
+        position: absolute;
+        top: 44%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+    }
+    #lang1 {
+        width: 145px;
+        height: 47px;
+        background-color: rgb(248, 251, 249);
+        position: absolute;
+        top: 55%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+        resize: none;
+        border: 2px;
+        padding: 15px 3px;
+        box-shadow: 1px 1px 40px 1px rgb(150, 138, 241)
+    }
+    #lang2 {
+        width: 145px;
+        height: 47px;
+        background-color: rgb(248, 251, 249);
+        position: absolute;
+        top: 21%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+        resize: none;
+        border: 2px;
+        padding: 15px 3px;
+        box-shadow: 1px 1px 40px 1px rgb(150, 138, 241)
+    }
+    #lang3 {
+        width: 145px;
+        height: 49px;
+        background-color: rgb(248, 251, 249);
+        position: absolute;
+        top: 79%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+        resize: none;
+        border: 2px;
+        padding: 15px 3px;
+        box-shadow: 1px 1px 40px 1px rgb(150, 138, 241);
+        font-size: medium;
+        
+    }
+    #btncopy1 {
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        top: 66%;
+        left: 72%;
+        transform: translate(-50%, -50%);
+        font-weight: 700;
+        border: solid 1px #fff;
+        background: linear-gradient(341.87deg, rgb(133, 115, 215), rgb(94, 96, 192));
+        cursor: pointer;
+        color: #fff;
+        border-radius: 5px;
+    }
+    #btncopy2 {
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        top: 32%;
+        left: 72%;
+        transform: translate(-50%, -50%);
+        font-weight: 700;
+        border: solid 1px #fff;
+        background: linear-gradient(341.87deg, rgb(133, 115, 215), rgb(94, 96, 192));
+        cursor: pointer;
+        color: #fff;
+        border-radius: 5px;
+    }
+    #btncopy3 {
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        top: 90%;
+        left: 72%;
+        transform: translate(-50%, -50%);
+        font-weight: 700;
+        border: solid 1px #fff;
+        background: linear-gradient(341.87deg, rgb(133, 115, 215), rgb(94, 96, 192));
+        cursor: pointer;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+}

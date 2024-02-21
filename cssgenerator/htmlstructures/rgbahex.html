@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGBA & Hex Color CSS Generator</title>
+    <link rel="stylesheet" href="/cssstyles/style.css">
+    <link rel="stylesheet" href="/mobileviewstyle/borderradi.css">
+    <link rel="stylesheet" href="/mobileviewstyle/mobile_rgb.css">
+    <link rel="stylesheet" href="/cssstyles/rgbahexstyle.css">
+</head>
+
+<body>
+    <div class="top_container">
+        <div class="logo">
+            <img src="/logo.png" alt="logo">
+            <h1>CSS GENERATOR</h1>
+            <div class="home">
+                <a href="/index.html"><img src="/pictures/home.png" alt="home"> </a>
+            </div>
+        </div>
+        <div class="links">
+            <a href="/htmlstructures/content.html">Border Radius</a>
+            <a href="/htmlstructures/textshadow.html">Text Shadow</a>
+            <a href="/htmlstructures/boxshadow.html">Box Shadow</a>
+            <a href="/htmlstructures/cursor.html">CSS Cursor</a>
+            <a href="/htmlstructures/transform.html">Transform CSS</a>
+            <a href="/htmlstructures/rgbahex.html">RGBA & Hex Color</a>
+            <a href="/htmlstructures/multicolumn.html">Multiple Column</a>
+        </div>
+    </div>
+    <div class="container8">
+        <h2>RGBA & HEX COLOR</h2>
+        <div class="red">
+            <label for="red">Red</label>
+            <div class="row_row">
+                <input type="range" value="251" min="0" max="255" id="redcolor"><span id="red_value"></span>
+            </div>
+        </div>
+        <div class="green">
+            <label for="green">Green</label>
+            <div class="row_row">
+                <input type="range" value="150" min="0" max="255" id="greencolor"><span id="green_value"></span>
+            </div>
+        </div>
+        <div class="blue">
+            <label for="blue">Blue</label>
+            <div class="row_row">
+                <input type="range" value="168" min="0" max="255" id="bluecolor"><span id="blue_value"></span>
+            </div>
+        </div>
+        <div class="opacity">
+            <label for="opacity">Opacity (Alpha)</label>
+            <div class="row_row">
+                <input type="range" value="40" min="0" max="100" id="opacityval"><span id="opacity_value"></span>
+            </div>
+        </div>
+        <div class="hex">
+            <label>Hex Value</label>
+            <div class="hex1">
+                <input type="color" value="#FB96A8" id="hexvalue"><span id="hex_code"></span>
+            </div>
+        </div>
+    </div>
+    <!--container 2-->
+    <div class="container2">
+        <div class="tool1"></div>
+        <div class="tool2"></div>
+        <div class="code">
+            <textarea readonly id="lang1"></textarea>
+            <button id="btncopy1">Copy</button>
+            <textarea readonly id="lang2"></textarea>
+            <button id="btncopy2">Copy</button>
+            <textarea readonly id="lang3"></textarea>
+            <button id="btncopy3">Copy</button>
+        </div>
+
+    </div>
+    <script src="/jsfunctions/rgbahex_color.js"></script>
+</body>
+
+</html>

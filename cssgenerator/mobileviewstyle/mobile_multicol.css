@@ -1,0 +1,181 @@
+
+
+@media(max-width:464px) {
+
+    .container7 {
+        background-color: rgb(255, 255, 255);
+        width: 700px;
+        height: 650px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container7 h2 {
+        height: 30px;
+        position: absolute;
+        top: 1%;
+        font-size: medium;
+        font-weight: 600;
+        left: 2%;
+        color: #8e44ad;
+    }
+    .home {
+        height: 20px;
+        position: absolute;
+        top: 0%;
+        right: -10%;
+    }
+
+    .home img {
+        height: 20px;
+    }
+
+    .home img:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .colrule_color {
+        border: 1px solid rgb(216, 214, 214);
+        display: flex;
+        flex-direction: row;
+        padding: 4px;
+        gap: 20px;
+        height: 35px;
+        width: 120px;
+    }
+    .colrulecolour span {
+        position: relative;
+        top: 10%;
+    }
+    
+    
+    .row_row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .colcount {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 10%;
+        left: 1%;
+        gap: 17px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+
+    .colgap {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 16px;
+        position: absolute;
+        top: 24%;
+        left: 0%;
+        padding: 0px 10px;
+    }
+
+    .colrulestyle {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top: 38%;
+        left: 0%;
+        gap: 24px;
+        background-color: #fff;
+        padding: 3px 10px;
+    }
+
+    .colrulewidth {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top: 54%;
+        left: 0%;
+        gap: 22px;
+        background-color: #fff;
+        padding: 3px 10px;
+    }
+
+    .colrulecolour {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 70%;
+        left: 1%;
+        gap: 20px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+
+
+    .colrule_color input {
+        width: 23px;
+        height: 23px;
+    }
+
+    .colcount input {
+        width: 110px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .colgap input {
+        width: 110px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .colrulewidth input {
+        width: 110px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    #colrulestyle_color {
+        width: 120px;
+        text-align: center;
+    }
+
+    span {
+        position: relative;
+        top: 15%;
+        left: 4%;
+    }
+    .tool1 {
+        width: 260px;
+        height: 150px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 13%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .tool1 p {
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        top: 3%;
+        left: 6%;
+        width: 80%;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+}

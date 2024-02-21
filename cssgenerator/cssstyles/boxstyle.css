@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+
+@media(min-width:465px) and (max-width:699px) {
+    .container4 {
+        background-color: rgb(255, 255, 255);
+        width: 700px;
+        height: 700px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .container4 h2 {
+        height: 30px;
+        position: absolute;
+        top: 1%;
+        font-size: larger;
+        font-weight: 600;
+        left: 2%;
+        color: #8e44ad;
+    }
+    .home {
+        height: 30px;
+        position: absolute;
+        top: 10%;
+        right: 2%;
+    }
+    
+    .home img {
+        height: 23px;
+    }
+    
+    .home img:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    .shadow_color{
+        border: 1px solid rgb(216, 214, 214);
+        display: flex;
+        flex-direction: row;
+        padding: 4px;
+        gap: 10px;
+        height: 34px;
+        width: 185px;
+    } 
+    .shadow_color span{
+        position: relative;
+        top: 10%;
+    }
+    
+    
+    .row_row{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+@media(min-width:700px) and (max-width:1100px){
+    .container4 {
+        background-color: rgb(255, 255, 255);
+        width: 700px;
+        height: 700px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .container4 h2 {
+        height: 30px;
+        position: absolute;
+        top: 1%;
+        font-size: larger;
+        font-weight: 600;
+        left: 2%;
+        color: #8e44ad;
+    }
+    .home {
+        height: 30px;
+        position: absolute;
+        top: 10%;
+        right: 2%;
+    }
+    
+    .home img {
+        height: 23px;
+    }
+    
+    .home img:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    .shadow_color{
+        border: 1px solid rgb(216, 214, 214);
+        display: flex;
+        flex-direction: row;
+        padding: 4px;
+        gap: 10px;
+        height: 34px;
+        width: 185px;
+    } 
+    .shadow_color span{
+        position: relative;
+        top: 10%;
+    }
+    
+    
+    .row_row{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+@media(min-width:1101px) {
+    .container4 {
+        background-color: rgb(255, 255, 255);
+        width: 700px;
+        height: 700px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .container4 h2 {
+        height: 30px;
+        position: absolute;
+        top: 1%;
+        font-size: larger;
+        font-weight: 600;
+        left: 2%;
+        color: #8e44ad;
+    }
+    .home {
+        height: 30px;
+        position: absolute;
+        top: 10%;
+        right: 2%;
+    }
+    
+    .home img {
+        height: 23px;
+    }
+    
+    .home img:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    .shadow_color{
+        border: 1px solid rgb(216, 214, 214);
+        display: flex;
+        flex-direction: row;
+        padding: 4px;
+        gap: 10px;
+        height: 34px;
+        width: 185px;
+    } 
+    .shadow_color span{
+        position: relative;
+        top: 10%;
+    }
+    
+    
+    .row_row{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+/*common
+.container4 {
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.container4 h2 {
+    height: 30px;
+    position: absolute;
+    top: 1%;
+    font-size: larger;
+    font-weight: 600;
+    left: 2%;
+    color: #8e44ad;
+}
+.home {
+    height: 30px;
+    position: absolute;
+    top: 10%;
+    right: 2%;
+}
+
+.home img {
+    height: 23px;
+}
+
+.home img:hover {
+opacity: 0.8;
+transform: scale(1.1);
+transition: all 0.3s ease;
+    cursor: pointer;
+}
+*/
+
+/*container*/
+
+@media(min-width:465px) and (max-width:699px) {
+    .horizontal_length {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 1%;
+        gap: 15px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+    .vertical_length {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 20px;
+        position: absolute;
+        top: 26%;
+        left: 0%;
+        padding: 0px 10px;
+    }
+    .blur_radius {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top: 39%;
+        left: 0%;
+        gap: 20px;
+        background-color: #fff;
+        padding: 3px 10px;
+    }
+    .spread_radius {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top:53%;
+        left: 1%;
+        gap: 5px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+    .shadow_colour{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top:65%;
+        left: 1%;
+        gap: 5px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+    .shadow_coloropacit {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 78%;
+        left: 1%;
+        column-gap: 10%;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+
+    .shadow_colour input{
+        width: 23px;
+        height: 23px;
+    }
+}
+@media(min-width:465px) and (max-width:699px)  {
+    .horizontal_length input {
+        width: 170px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .vertical_length input {
+        width: 170px;
+        position: relative;
+        margin-top: 5px;
+    }
+    .blur_radius input{
+        width: 170px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .spread_radius input {
+        width: 170px;
+        position: relative;
+        margin-top: 15px;
+    }
+    .shadow_coloropacit input{
+        width: 170px;
+        position: relative;
+        margin-top: 25px;
+    }
+    span{
+        position: relative;
+        top:10%;
+        left: 4%;
+    }
+    #spreadradius{
+        margin-top: 15px;
+    }
+    #opacity{
+        margin-top: 23px;
+    }
+}
+
+
+
+
+
+
+@media(min-width:700px) and (max-width:1100px) {
+    .horizontal_length {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 35px;
+        background-color: #fff;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0px 10px;
+    }
+    .vertical_length {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 30px;
+        position: absolute;
+        top: 27%;
+        left: 0%;
+        padding: 0px 10px;
+    }
+    .blur_radius {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 30px;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        background-color: rgb(255, 255, 255);
+        padding: 0px 10px;
+
+    }
+    .spread_radius {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 30px;
+        position: absolute;
+        top: 55%;
+        left: 0%;
+        background-color: rgb(255, 255, 255);
+        padding: 0px 10px;
+
+    }
+    .shadow_colour {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: absolute;
+        top: 70%;
+        left: 1%;
+        gap: 25px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+
+    .shadow_coloropacit {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 30px;
+        position: absolute;
+        top: 80%;
+        left: 0%;
+        background-color: rgb(255, 255, 255);
+        padding: 0px 10px;
+
+    }
+}
+@media(min-width:700px) and (max-width:1100px) {
+    .horizontal_length input {
+        width: 290px;
+        margin-left: 21px;
+        position: relative;
+    left: -6%;
+    top: -50%;
+    }
+
+    .vertical_length input {
+        width: 290px;
+        margin-left: 21px;
+        position: relative;
+    left: -6%;
+    top: -50%;
+    }
+    .blur_radius input{
+        width: 290px;
+        margin-left: 21px;
+        position: relative;
+    left: -6%;
+    top: -53%;
+    }
+    .spread_radius input{
+        width: 290px;
+        margin-left: 21px;
+        position: relative;
+    left: -6%;
+    top: -53%;
+    }
+    .shadow_color input {
+        width: 23px;
+        height: 23px;
+    }
+    .shadow_coloropacit input{
+        width: 290px;
+        margin-left: 21px;
+        position: relative;
+    left: -6%;
+    top: -53%;
+    }
+    span{
+        position: relative;
+        top:-50%;
+        left: 4%;
+    }
+    
+}
+
+
+
+
+@media(min-width:1101px) {
+    .horizontal_length {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 2%;
+        gap: 25px;
+        background-color: #fff;
+        padding: 0px 10px;
+    }
+    .vertical_length {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 25px;
+        position: absolute;
+        top: 27%;
+        left: 2%;
+        padding: 0px 10px;
+    
+    }
+    .blur_radius {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 25px;
+        gap: 30px;
+        position: absolute;
+        top: 42%;
+        left: 2%;
+        background-color: #fff;
+        padding: 0px 10px;
+    }
+    .spread_radius {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top:57%;
+        left: 2%;
+        gap: 30px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+
+    .shadow_colour {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: absolute;
+        top: 75%;
+        left: 2%;
+        gap: 37px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+    .shadow_coloropacit{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 85%;
+        left: 2%;
+        gap: 35px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+
+    .shadow_colour input{
+        width: 23px;
+        height: 23px;
+    }
+    
+    .shadow_coloropacit input {
+        width: 400px;
+        position: relative;
+        margin-top: 0px;
+    }
+}
+@media(min-width:1101px) {
+    .horizontal_length input {
+        width: 400px;
+        position: relative;
+    }
+
+    .vertical_length input {
+        width: 400px;
+        position: relative;
+    }
+    .blur_radius input{
+        width: 400px;
+        position: relative;
+        top: -50%;
+    }
+    .spread_radius input{
+        width: 400px;
+        position: relative;
+        top: -50%;
+    }
+    .shadow_coloropacit input{
+        width: 400px;
+        position: relative;
+        top: -50%;
+    }
+    span{
+        position: relative;
+        top:-50%;
+        left: 4%;
+    }
+
+}
+/*
+.shadow_color{
+    border: 1px solid rgb(216, 214, 214);
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    gap: 10px;
+    height: 34px;
+    width: 185px;
+} 
+.shadow_color span{
+    position: relative;
+    top: 10%;
+}
+
+
+.row_row{
+    display: flex;
+    flex-direction: row;
+}*/
+

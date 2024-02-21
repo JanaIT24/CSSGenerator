@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+/*common*/
+@media(min-width:465px) and (max-width:699px) {
+.container7 {
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.container7 h2 {
+    height: 30px;
+    position: absolute;
+    top: 1%;
+    font-size: larger;
+    font-weight: 600;
+    left: 2%;
+    color: #8e44ad;
+}
+.home {
+    height: 30px;
+    position: absolute;
+    top: 10%;
+    right: 2%;
+}
+
+.home img {
+    height: 23px;
+}
+
+.home img:hover {
+opacity: 0.8;
+transform: scale(1.1);
+transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.colrule_color {
+    border: 1px solid rgb(216, 214, 214);
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    gap: 40px;
+    height: 35px;
+    width: 160px;
+}
+.colrulecolour span {
+    position: relative;
+    top: 10%;
+}
+
+
+.row_row {
+    display: flex;
+    flex-direction: row;
+}
+}
+
+
+@media(min-width:700px) and (max-width:1100px) {
+    .container7 {
+        background-color: rgb(255, 255, 255);
+        width: 700px;
+        height: 650px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container7 h2 {
+        height: 30px;
+        position: absolute;
+        top: 1%;
+        font-size: larger;
+        font-weight: 600;
+        left: 2%;
+        color: #8e44ad;
+    }
+    .home {
+        height: 30px;
+        position: absolute;
+        top: 10%;
+        right: 2%;
+    }
+    
+    .home img {
+        height: 23px;
+    }
+    
+    .home img:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .colrule_color {
+        border: 1px solid rgb(216, 214, 214);
+        display: flex;
+        flex-direction: row;
+        padding: 4px;
+        gap: 40px;
+        height: 35px;
+        width: 160px;
+    }
+    .colrulecolour span {
+        position: relative;
+        top: 10%;
+    }
+    
+    
+    .row_row {
+        display: flex;
+        flex-direction: row;
+    }
+    }
+
+
+
+    @media(min-width:1101px) {
+        .container7 {
+            background-color: rgb(255, 255, 255);
+            width: 700px;
+            height: 650px;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container7 h2 {
+            height: 30px;
+            position: absolute;
+            top: 1%;
+            font-size: larger;
+            font-weight: 600;
+            left: 2%;
+            color: #8e44ad;
+        }
+        .home {
+            height: 30px;
+            position: absolute;
+            top: 10%;
+            right: 2%;
+        }
+        
+        .home img {
+            height: 23px;
+        }
+        
+        .home img:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .colrule_color {
+            border: 1px solid rgb(216, 214, 214);
+            display: flex;
+            flex-direction: row;
+            padding: 4px;
+            gap: 40px;
+            height: 35px;
+            width: 160px;
+        }
+        .colrulecolour span {
+            position: relative;
+            top: 10%;
+        }
+        
+        
+        .row_row {
+            display: flex;
+            flex-direction: row;
+        }
+        }
+
+
+/*//In common//*/
+
+
+
+
+
+
+@media(min-width:465px) and (max-width:699px) {
+    .colcount {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 1%;
+        gap: 15px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+
+    .colgap {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 20px;
+        position: absolute;
+        top: 26%;
+        left: 0%;
+        padding: 0px 10px;
+    }
+
+    .colrulestyle {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        gap: 20px;
+        background-color: #fff;
+        padding: 3px 10px;
+    }
+
+    .colrulewidth {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top: 55%;
+        left: 0%;
+        gap: 20px;
+        background-color: #fff;
+        padding: 3px 10px;
+    }
+
+    .colrulecolour {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 70%;
+        left: 1%;
+        gap: 20px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+
+
+    .colrule_color input {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+
+@media(min-width:700px) and (max-width:1100px) {
+    .colcount {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 35px;
+        background-color: #fff;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0px 10px;
+    }
+
+    .colgap {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 30px;
+        position: absolute;
+        top: 27%;
+        left: 0%;
+        padding: 0px 10px;
+    }
+
+    .colrulestyle {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 30px;
+        position: absolute;
+        top: 41%;
+        left: 0%;
+        background-color: rgb(255, 255, 255);
+        padding: 0px 10px;
+    }
+
+    .colrulewidth {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 35px;
+        position: absolute;
+        top: 58%;
+        left: 0%;
+        background-color: rgb(255, 255, 255);
+        padding: 0px 10px;
+
+    }
+
+    .colrulecolour {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: absolute;
+        top: 75%;
+        left: 1%;
+        gap: 25px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+
+    .colrulecolour input {
+        width: 23px;
+        height: 23px;
+    }
+}
+
+@media(min-width:1101px) {
+    .colcount {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 15%;
+        left: 2%;
+        gap: 25px;
+        background-color: #fff;
+        padding: 0px 10px;
+    }
+
+    .colgap {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 25px;
+        position: absolute;
+        top: 30%;
+        left: 2%;
+        padding: 0px 10px;
+
+    }
+
+    .colrulestyle {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 25px;
+        gap: 30px;
+        position: absolute;
+        top: 45%;
+        left: 2%;
+        background-color: #fff;
+        padding: 0px 10px;
+    }
+
+    .colrulewidth {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 25px;
+        gap: 37px;
+        position: absolute;
+        top: 63%;
+        left: 2%;
+        background-color: #fff;
+        padding: 0px 10px;
+    }
+
+    .colrulecolour {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: absolute;
+        top: 80%;
+        left: 2%;
+        gap: 100px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+
+    .colrulecolour input {
+        width: 23px;
+        height: 23px;
+    }
+}
+
+
+@media(min-width:465px) and (max-width:699px) {
+    .colcount input {
+        width: 170px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .colgap input {
+        width: 170px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .colrulewidth input {
+        width: 170px;
+        position: relative;
+        margin-top: 5px;
+    }
+}
+
+
+@media(min-width:700px) and (max-width:1100px) {
+    .colcount input {
+        width: 290px;
+        margin-left: 21px;
+        position: relative;
+        left: -6%;
+        top: -50%;
+    }
+
+    .colgap input {
+        width: 290px;
+        margin-left: 21px;
+        position: relative;
+        left: -6%;
+        top: -50%;
+    }
+
+    .colrulewidth input {
+        width: 290px;
+        margin-left: 21px;
+        position: relative;
+        left: -6%;
+        top: -53%;
+    }
+}
+
+
+@media(min-width:1101px) {
+    .colcount input {
+        width: 400px;
+        position: relative;
+    }
+
+    .colgap input {
+        width: 400px;
+        position: relative;
+    }
+
+    .colrulewidth input {
+        width: 400px;
+        position: relative;
+        top: -50%;
+    }
+}
+
+@media(min-width:700px) and (max-width:1100px) {
+    #colrulestyle_color {
+        width: 290px;
+        text-align: center;
+    }
+
+    span {
+        position: relative;
+        top: -50%;
+    }
+}
+
+@media(min-width:465px) and (max-width:699px) {
+    #colrulestyle_color {
+        width: 170px;
+        text-align: center;
+    }
+
+    span {
+        position: relative;
+        top: 15%;
+        left: 3%;
+    }
+}
+
+@media(min-width:1101px) {
+    #colrulestyle_color {
+        width: 400px;
+        text-align: center;
+    }
+
+    span {
+        position: relative;
+        left: 3%;
+        bottom: 10%;
+    }
+
+    #colrulewidth_val {
+        margin-bottom: 60px;
+    }
+}
+/*
+.colrule_color {
+    border: 1px solid rgb(216, 214, 214);
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    gap: 40px;
+    height: 35px;
+    width: 160px;
+}*/
+
+@media(min-width:700px) and (max-width:1100px) {
+    .colrule_color {
+        width: 125px;
+        gap: 30px;
+    }
+}
+
+/*
+.colrulecolour span {
+    position: relative;
+    top: 10%;
+}
+
+
+.row_row {
+    display: flex;
+    flex-direction: row;
+}*/
+
+
+
+/*container2*/
+
+
+@media(min-width:465px) and (max-width:699px) {
+    .tool1 {
+        width: 266px;
+        height: 250px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 13%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .tool1 p {
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        top: 3%;
+        left: 5%;
+        width: 80%;
+        font-size: medium;
+        font-weight: 500;
+    }
+
+}
+
+@media(min-width:700px) and (max-width:1100px) {
+    .tool1 {
+        width: 400px;
+        height: 280px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 17%;
+        left: 46.5%;
+        transform: translate(-50%, -50%);
+    }
+
+    .tool1 p {
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        top: 25%;
+        width: 100%;
+        font-size: medium;
+        font-weight: 500;
+    }
+}
+
+@media(min-width:1101px) {
+    .tool1 {
+        width: 400px;
+        height: 280px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 17%;
+        left: 46.5%;
+        transform: translate(-50%, -50%);
+    }
+
+    .tool1 p {
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        top: 10%;
+        width: 100%;
+        font-size: large;
+        font-weight: 500;
+    }
+}

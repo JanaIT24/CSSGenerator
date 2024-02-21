@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Column CSS Generator</title>
+    <link rel="stylesheet" href="/cssstyles/style.css">
+    <link rel="stylesheet" href="/mobileviewstyle/borderradi.css">
+    <link rel="stylesheet" href="/mobileviewstyle/mobile_multicol.css">
+    <link rel="stylesheet" href="/cssstyles/multicolumnstyle.css">
+    <style>
+        .tool1{
+            background-color:#fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top_container">
+        <div class="logo">
+            <img src="/logo.png" alt="logo">
+            <h1>CSS GENERATOR</h1>
+            <div class="home">
+                <a href="/index.html"><img src="/pictures/home.png" alt="home"> </a>
+            </div>
+        </div>
+        <div class="links">
+            <a href="/htmlstructures/content.html">Border Radius</a>
+            <a href="/htmlstructures/textshadow.html">Text Shadow</a>
+            <a href="/htmlstructures/boxshadow.html">Box Shadow</a>
+            <a href="/htmlstructures/cursor.html">CSS Cursor</a>
+            <a href="/htmlstructures/transform.html">Transform CSS</a>
+            <a href="/htmlstructures/rgbahex.html">RGBA & Hex Color</a>
+            <a href="/htmlstructures/multicolumn.html">Multiple Column</a>
+        </div>
+    </div>
+    <div class="container7">
+        <h2>MULTIPLE COLUMN</h2>
+        <div class="colcount">
+            <label for="colcount">Column Counts</label>
+            <div class="row_row">
+                <input type="range" value="1" min="1" max="3" id="columncount"><span id="colcount_val"></span>
+            </div>
+        </div>
+        <div class="colgap">
+            <label for="colgap">Column Gaps</label>
+            <div class="row_row">
+                <input type="range" value="15" min="0" max="50" id="columngap"><span id="colgap_val"></span>
+            </div>
+        </div>
+        <div class="colrulestyle">
+            <label for="colrulestyle">Column Rule Style</label>
+            <select id="colrulestyle_color">
+                <option>solid</option>
+                <option>dotted</option>
+                <option>dashed</option>
+                <option>double</option>
+                <option>groove</option>
+                <option>ridge</option>
+                <option>inset</option>
+                <option>outset</option>
+                <option>none</option>
+                <option>hidden</option>
+            </select>
+        </div>
+        <div class="colrulewidth">
+            <label for="colrulewidth">Column Rule Width</label>
+            <div class="row_row">
+                <input type="range" value="2" min="1" max="20" id="columnrulewidth"><span id="colrulewidth_val"></span>
+            </div>
+        </div>
+        <div class="colrulecolour">
+            <label>Column Rule Color</label>
+            <div class="colrule_color">
+                <input type="color" value="#000000" id="columnrulestylecolour"><span id="hex_code"></span>
+            </div>
+        </div>
+    </div>
+    <!--container 2-->
+    <div class="container2">
+        <div class="tool1"><p id="result">The multiple-column layout specification provides you with a method for laying content out in columns,as like in the news paper.Using the `column-count` property in css
+        allows you to break up a long paragraph into a specified number of columns.For instance,setting `column-count:3;`divides the content into three columns.</p></div>
+        <div class="syntax" style="height:90px;">
+            <p><b style="font-weight: 700;">Syntax:</b>column-count:value;column-gap:value;column-rule:width style color
+            </p>
+        </div>
+        <div class="code">
+            <textarea readonly id="lang"></textarea>
+        </div>
+        <button id="btncopy">Copy</button>
+    </div>
+    <script src="/jsfunctions/multi_column.js"></script>
+</body>
+
+</html>

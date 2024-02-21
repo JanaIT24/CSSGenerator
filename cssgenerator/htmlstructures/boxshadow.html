@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow CSS Generator</title>
+    <link rel="stylesheet" href="/mobileviewstyle/borderradi.css">
+    <link rel="stylesheet" href="/mobileviewstyle/mobile_box.css">
+    <link rel="stylesheet" href="/cssstyles/style.css">
+    <link rel="stylesheet" href="/cssstyles/boxstyle.css">
+
+</head>
+
+<body>
+    <div class="top_container">
+        <div class="logo">
+            <img src="/logo.png" alt="logo">
+            <h1>CSS GENERATOR</h1>
+            <div class="home">
+                <a href="/index.html"><img src="/pictures/home.png" alt="home"> </a>
+            </div>
+        </div>
+        <div class="links">
+            <a href="/htmlstructures/content.html">Border Radius</a>
+            <a href="/htmlstructures/textshadow.html">Text Shadow</a>
+            <a href="/htmlstructures/boxshadow.html">Box Shadow</a>
+            <a href="/htmlstructures/cursor.html">CSS Cursor</a>
+            <a href="/htmlstructures/transform.html">Transform CSS</a>
+            <a href="/htmlstructures/rgbahex.html">RGBA & Hex Color</a>
+            <a href="/htmlstructures/multicolumn.html">Multiple Column</a>
+            <a></a>
+        </div>
+    </div>
+    <div class="container4">
+        <h2>BOX SHADOW</h2>
+        <div class="horizontal_length">
+            <label for="horiz">Horizontal Shadow Length</label>
+            <div class="row_row">
+                <input type="range" value="10" min="-100" max="100" id="horizontal"><span id="horizonshadow"></span>
+            </div>
+        </div>
+        <div class="vertical_length">
+            <label for="vert">Vertical Shadow Length</label>
+            <div class="row_row">
+                <input type="range" value="10" min="-100" max="100" id="vertical"><span id="verticalshadow"></span>
+            </div>
+        </div>
+        <div class="blur_radius">
+            <label for="blur">Blur Radius</label>
+            <div class="row_row">
+                <input type="range" value="5" min="0" max="200" id="blurrad"><span id="blurradius"></span>
+            </div>
+        </div>
+        <div class="spread_radius">
+            <label for="spread">Spread Radius</label>
+            <div class="row_row">
+                <input type="range" value="0" min="-100" max="100" id="spreadrad"><span id="spreadradius"></span>
+            </div>
+        </div>
+        <div class="shadow_colour">
+            <label>Shadow Color</label>
+            <div class="shadow_color">
+                <input type="color" value="#000" id="shadowcolour"><span id="hex_code"></span>
+            </div>
+        </div>
+        <div class="shadow_coloropacit">
+            <label for="opacit">Shadow Color Opacity</label>
+            <div class="row_row">
+                <input type="range" value="75" min="0" max="100" id="shadow_opticity"><span id="opacity"></span>
+            </div>
+        </div>
+    </div>
+    <!--container 2-->
+    <div class="container2">
+        <div class="tool"></div>
+        <div class="syntax">
+            <p><b style="font-weight: 700;">Syntax:</b> &nbsp;box-shadow:h-offset &nbsp;v-offset &nbsp;blur &nbsp;spread &nbsp;color;
+            </p>
+        </div>
+        <div class="code">
+            <textarea readonly id="lang"></textarea>
+        </div>
+        <button id="btncopy">Copy</button>
+    </div>
+    <script src="/jsfunctions/box_shadow.js"></script>
+</body>
+
+</html>

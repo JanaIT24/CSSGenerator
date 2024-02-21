@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/*common*/
+@media(min-width:465px) and (max-width:699px) {
+.container6 {
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.container6 h2 {
+    height: 30px;
+    position: absolute;
+    top: 1%;
+    font-size: larger;
+    font-weight: 600;
+    left: 2%;
+    color: #8e44ad;
+}
+.home {
+    height: 30px;
+    position: absolute;
+    top: 10%;
+    right: 2%;
+}
+
+.home img {
+    height: 23px;
+}
+
+.home img:hover {
+opacity: 0.8;
+transform: scale(1.1);
+transition: all 0.3s ease;
+    cursor: pointer;
+}
+.row_row{
+    display: flex;
+    flex-direction: row;
+}
+span{
+    position: relative;
+    top:-50%;
+}
+.tool1 {
+    width: 200px;
+    height: 200px;
+    background-color: #87cefa;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+   margin-top: -100px;
+   margin-left: -100px;
+}
+}
+@media(min-width:700px) and (max-width:1100px) {
+    .container6 {
+        background-color: rgb(255, 255, 255);
+        width: 700px;
+        height: 650px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container6 h2 {
+        height: 30px;
+        position: absolute;
+        top: 1%;
+        font-size: larger;
+        font-weight: 600;
+        left: 2%;
+        color: #8e44ad;
+    }
+    .home {
+        height: 30px;
+        position: absolute;
+        top: 10%;
+        right: 2%;
+    }
+    
+    .home img {
+        height: 23px;
+    }
+    
+    .home img:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    .row_row{
+        display: flex;
+        flex-direction: row;
+    }
+    span{
+        position: relative;
+        top:-50%;
+    }
+    .tool1 {
+        width: 200px;
+        height: 200px;
+        background-color: #87cefa;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+       margin-top: -100px;
+       margin-left: -100px;
+    }
+    }
+
+    @media(min-width:1101px) {
+        .container6 {
+            background-color: rgb(255, 255, 255);
+            width: 700px;
+            height: 650px;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container6 h2 {
+            height: 30px;
+            position: absolute;
+            top: 1%;
+            font-size: larger;
+            font-weight: 600;
+            left: 2%;
+            color: #8e44ad;
+        }
+        .home {
+            height: 30px;
+            position: absolute;
+            top: 10%;
+            right: 2%;
+        }
+        
+        .home img {
+            height: 23px;
+        }
+        
+        .home img:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .row_row{
+            display: flex;
+            flex-direction: row;
+        }
+        span{
+            position: relative;
+            top:-50%;
+        }
+        .tool1 {
+            width: 200px;
+            height: 200px;
+            background-color: #87cefa;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+           margin-top: -100px;
+           margin-left: -100px;
+        }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:465px) and (max-width:699px) {
+    .rotate {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 1%;
+        gap: 15px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+    .scale {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 20px;
+        position: absolute;
+        top: 26%;
+        left: 0%;
+        padding: 0px 10px;
+    }
+    .skew {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top: 39%;
+        left: 0%;
+        gap: 20px;
+        background-color: #fff;
+        padding: 3px 10px;
+    }
+    .translatex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top:53%;
+        left: 1%;
+        gap: 5px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+
+    .translatey {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 66%;
+        left: 1%;
+        column-gap: 10%;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+}
+@media(min-width:465px) and (max-width:699px) {
+    .rotate input {
+        width: 170px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .scale input {
+        width: 170px;
+        position: relative;
+        margin-top: 5px;
+    }
+    .skew input{
+        width: 170px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .translatex input {
+        width: 170px;
+        position: relative;
+        margin-top: 15px;
+    }
+    .translatey input{
+        width: 170px;
+        position: relative;
+        margin-top: 25px;
+    }
+    span{
+        position: relative;
+        top:10%;
+        left: 6%;
+    }
+    #rotate_val,#scale_val,#skew_val{
+        top: 5px;
+    }
+    #translate_valx{
+    top: 13px;
+}
+#translate_valy{
+    top: 20px;
+}
+}
+
+
+
+@media(min-width:700px) and (max-width:1100px) {
+    .rotate {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 35px;
+        background-color: #fff;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0px 10px;
+    }
+    .scale {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 30px;
+        position: absolute;
+        top: 27%;
+        left: 0%;
+        padding: 0px 10px;
+    }
+    .skew {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 30px;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        background-color: rgb(255, 255, 255);
+        padding: 0px 10px;
+
+    }
+    .translatex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 53%;
+        left: 1%;
+        gap: 21px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+
+    .translatey {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 67%;
+        left: 1%;
+        gap: 22px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+}
+@media(min-width:700px) and (max-width:1100px) {
+    .rotate input {
+        width: 290px;
+        margin-left: 21px;
+        position: relative;
+    left: -6%;
+    top: -50%;
+    }
+
+    .scale input {
+        width: 290px;
+        margin-left: 21px;
+        position: relative;
+    left: -6%;
+    top: -50%;
+    }
+    .skew input{
+        width: 290px;
+        margin-left: 21px;
+        position: relative;
+    left: -6%;
+    top: -53%;
+    }
+    .translatex input{
+        width: 290px;
+        margin-left: 21px;
+        position: relative;
+    left: -6%;
+    top: -53%;
+    }
+    .translatey input {
+        width: 290px;
+        margin-left: 21px;
+        position: relative;
+    left: -6%;
+    top: -53%;
+    }
+}
+
+
+
+
+@media(min-width:1101px) {
+    .rotate {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 2%;
+        gap: 25px;
+        background-color: #fff;
+        padding: 0px 10px;
+    }
+    .scale {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        gap: 25px;
+        position: absolute;
+        top: 27%;
+        left: 2%;
+        padding: 0px 10px;
+    
+    }
+    .skew {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 25px;
+        gap: 30px;
+        position: absolute;
+        top: 40%;
+        left: 2%;
+        background-color: #fff;
+        padding: 0px 10px;
+    }
+    .translatex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top:54%;
+        left: 2%;
+        gap: 25px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+
+    .translatey {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 69%;
+        left: 2%;
+        gap: 25px;
+        background-color: #fff;
+        padding: 0px 8px;
+    }
+}
+@media(min-width:1101px) {
+    .rotate input {
+        width: 400px;
+        position: relative;
+    }
+
+    .scale input {
+        width: 400px;
+        position: relative;
+    }
+    .skew input{
+        width: 400px;
+        position: relative;
+        top: -50%;
+    }
+    .translatex input{
+        width: 400px;
+        position: relative;
+        top: -50%;
+    }
+    .translatey input{
+        width: 400px;
+        position: relative;
+        top: -50%;
+    }
+    span{
+        position: relative;
+        top:-50%;
+        left: 5%;
+    }
+    #scale_val{
+        position: relative;
+        top:2%;
+    }
+
+}
+
+
+/*.row_row{
+    display: flex;
+    flex-direction: row;
+}
+span{
+    position: relative;
+    top:-50%;
+}*/
+/*container2*/
+@media(min-width:465px) and (max-width:699px) {
+    .syntax1 {
+        width: 200px;
+        height: 90px;
+        background-color: rgb(253, 253, 254);
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        padding: 5px;
+        transform: translate(-50%, -50%);
+        border: 1px solid rgb(187, 183, 183);
+        border-radius: 4px;
+        box-shadow: 2px 2px 10px 2px rgb(115, 111, 111);
+    }
+}
+
+@media(min-width:700px) and (max-width:1100px) {
+    .syntax1 {
+        width: 300px;
+        height: 80px;
+        background-color: rgb(253, 253, 254);
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-50%, -50%);
+        border: 1px solid rgb(187, 183, 183);
+        border-radius: 4px;
+        box-shadow: 2px 2px 10px 2px rgb(115, 111, 111);
+    }
+}
+
+@media(min-width:1101px) {
+    .syntax1 {
+        width: 500px;
+        height: 80px;
+        background-color: rgb(253, 253, 254);
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        padding: 5px;
+        transform: translate(-50%, -50%);
+        border: 1px solid rgb(187, 183, 183);
+        border-radius: 4px;
+        box-shadow: 2px 2px 10px 2px rgb(115, 111, 111);
+    }
+}
+/*
+.tool1 {
+    width: 200px;
+    height: 200px;
+    background-color: #87cefa;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+   margin-top: -100px;
+   margin-left: -100px;
+}*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,478 @@
+* {
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    /*border: 1px solid rgb(221, 214, 214);*/
+}
+@media(max-width:464px) {
+    .container5 {
+        background-color: rgb(255, 255, 255);
+        width: 1100px;
+        height: 700px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container5 h2 {
+        height: 30px;
+        position: absolute;
+        top: 1%;
+        font-size: medium;
+        font-weight: 600;
+        left: 2%;
+        color: #8e44ad;
+    }
+
+    #cousor_link {
+        position: absolute;
+        bottom: -1%;
+        color: rgb(72, 36, 220);
+    }
+
+    #cousor_link:hover {
+        color: orangered;
+    }
+
+    .home {
+        height: 30px;
+        position: absolute;
+        top: 10%;
+        right: 2%;
+    }
+
+    .home img {
+        height: 23px;
+    }
+
+    .home img:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .code textarea{
+        position: relative;
+        top: 60%;
+        margin-right:40%;
+        width: 150px;
+    }
+
+
+
+    #btn1,
+    #btn2,
+    #btn3,
+    #btn4,
+    #btn5,
+    #btn6,
+    #btn7,
+    #btn8,
+    #btn9,
+    #btn10,
+    #btn11,
+    #btn12,
+    #btn13,
+    #btn14,
+    #btn15,
+    #btn16,
+    #btn17,
+    #btn18,
+    #btn19,
+    #btn20,
+    #btn21,
+    #btn22,
+    #btn23,
+    #btn24,
+    #btn25,
+    #btn26,
+    #btn27,
+    #btn28,
+    #btn29,
+    #btn30,
+    #btn31,
+    #btn32,
+    #btn33,
+    #btn34,
+    #btn35,
+    #btn36 {
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        border: 0.5px solid rgb(247, 225, 225);
+        background-color: rgb(247, 243, 243);
+        font-size: large;
+        font-weight: 600;
+        color: rgb(70, 65, 65);
+    }
+
+
+    #btn1:hover {
+        background-color: #f3efef;
+        cursor: alias;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn2:hover {
+        background-color: #f3efef;
+        cursor: all-scroll;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn3:hover {
+        background-color: #f3efef;
+        cursor: auto;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn4:hover {
+        background-color: #f3efef;
+        cursor: cell;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn5:hover {
+        background-color: #f3efef;
+        cursor: context-menu;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn6:hover {
+        background-color: #f3efef;
+        cursor: col-resize;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn7:hover {
+        background-color: #f3efef;
+        cursor: copy;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn8:hover {
+        background-color: #f3efef;
+        cursor: crosshair;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn9:hover {
+        background-color: #f3efef;
+        cursor: default;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn10:hover {
+        background-color: #f3efef;
+        cursor: e-resize;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn11:hover {
+        background-color: #f3efef;
+        cursor: ew-resize;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn12:hover {
+        background-color: #f3efef;
+        cursor: grab;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn13:hover {
+        background-color: #f3efef;
+        cursor: grabbing;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn14:hover {
+        background-color: #f3efef;
+        cursor: help;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn15:hover {
+        background-color: #f3efef;
+        cursor: move;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn16:hover {
+        background-color: #f3efef;
+        cursor: n-resize;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn17:hover {
+        background-color: #f3efef;
+        cursor: ne-resize;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn18:hover {
+        background-color: #f3efef;
+        cursor: nesw-resize;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn19:hover {
+        background-color: #f3efef;
+        cursor: ns-resize;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn20:hover {
+        background-color: #f3efef;
+        cursor: nw-resize;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn21:hover {
+        background-color: #f3efef;
+        cursor: no-drop;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn22:hover {
+        background-color: #f3efef;
+        cursor: none;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn23:hover {
+        background-color: #f3efef;
+        cursor: not-allowed;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn24:hover {
+        background-color: #f3efef;
+        cursor: pointer;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn25:hover {
+        background-color: #f3efef;
+        cursor: progress;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn26:hover {
+        background-color: #f3efef;
+        cursor: row-resize;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn27:hover {
+        background-color: #f3efef;
+        cursor: s-resize;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn28:hover {
+        background-color: #f3efef;
+        cursor: se-resize;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn29:hover {
+        background-color: #f3efef;
+        cursor: sw-resize;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn30:hover {
+        background-color: #f3efef;
+        cursor: text;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn31:hover {
+        background-color: #f3efef;
+        cursor: vertical-text;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn32:hover {
+        background-color: #f3efef;
+        cursor: w-resize;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn33:hover {
+        background-color: #f3efef;
+        cursor: wait;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn34:hover {
+        background-color: #f3efef;
+        cursor: zoom-in;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn35:hover {
+        background-color: #f3efef;
+        cursor: zoom-out;
+        color: rgb(232, 8, 8);
+    }
+
+    #btn36:hover {
+        background-color: #f3efef;
+        cursor: initial;
+        color: rgb(232, 8, 8);
+    }
+
+
+
+
+    /*containertools*/
+    .top_container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10%;
+        left: 2%;
+        width: 100%;
+    }
+
+    .links {
+
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        gap: 5px;
+        left: -1%;
+        top: -50%;
+        color: rgb(90, 90, 214);
+
+    }
+
+    .links a {
+        font-size: 12.5px;
+        text-decoration: none;
+        color: rgb(121, 121, 226);
+    }
+
+    .links a:hover {
+        text-decoration: none;
+        color: rgb(73, 73, 192);
+    }
+
+    .links a:hover {
+        cursor: pointer;
+    }
+
+    .links {
+        position: absolute;
+        gap: 15px;
+        left: 0.5%;
+    }
+
+    .logo img {
+        position: relative;
+        height: 20px;
+        left: 0%;
+        top: 6%;
+
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: relative;
+        top: 10%;
+        height: 30px;
+        bottom: 60px;
+    }
+
+    .logo h1 {
+        padding: 2px 10px 5px 10px;
+        font-size: 18px;
+        font-weight: bolder;
+        color: orangered;
+    }
+
+    .home {
+        height: 20px;
+        position: absolute;
+        top: 0%;
+        right: -5%;
+    }
+
+    .home img {
+        height: 20px;
+    }
+
+    .home img:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    .container2 {
+        background-color: rgb(255, 255, 255);
+        width: 700px;
+        height: 650px;
+        position: relative;
+    
+    }
+    .syntax {
+        width: 150px;
+        height: 60px;
+        background-color: rgb(253, 253, 254);
+        position: absolute;
+        border: 1px solid rgb(187, 183, 183);
+        border-radius: 4px;
+        box-shadow: 2px 2px 10px 2px rgb(115, 111, 111);
+        left: 15%;
+        font-size: 16.5px;
+    }
+
+    .code textarea {
+        width: 150px;
+        height: 60px;
+        background-color: rgb(248, 251, 249);
+        position: absolute;
+        resize: none;
+        border: 2px;
+        padding: 3px 3px;
+        font-size: 16.5px;
+        box-shadow: 1px 1px 40px 1px rgb(150, 138, 241);
+        left: 15%;
+    }
+
+
+    #btncopy {
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        top: 90%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        font-weight: 700;
+        border: solid 1px #fff;
+        background: linear-gradient(341.87deg, rgb(133, 115, 215), rgb(94, 96, 192));
+        cursor: pointer;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+}

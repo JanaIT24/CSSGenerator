@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform CSS Generator</title>
+    <link rel="stylesheet" href="/cssstyles/style.css">
+    <link rel="stylesheet" href="/mobileviewstyle/mobile_transform.css">
+
+    <link rel="stylesheet" href="/cssstyles/transformstyle.css">
+
+</head>
+
+<body>
+    <div class="top_container">
+        <div class="logo">
+            <img src="/logo.png" alt="logo">
+            <h1>CSS GENERATOR</h1>
+            <div class="home">
+                <a href="/index.html"><img src="/pictures/home.png" alt="home"> </a>
+            </div>
+        </div>
+        <div class="links">
+            <a href="/htmlstructures/content.html">Border Radius</a>
+            <a href="/htmlstructures/textshadow.html">Text Shadow</a>
+            <a href="/htmlstructures/boxshadow.html">Box Shadow</a>
+            <a href="/htmlstructures/cursor.html">CSS Cursor</a>
+            <a href="/htmlstructures/transform.html">Transform CSS</a>
+            <a href="/htmlstructures/rgbahex.html">RGBA & Hex Color</a>
+            <a href="/htmlstructures/multicolumn.html">Multiple Column</a>
+        </div>
+    </div>
+    <div class="container6">
+        <h2>TRANSFORM CSS</h2>
+        <div class="rotate">
+            <label for="rote">Rotate</label>
+            <div class="row_row">
+                <input type="range" value="0" min="0" max="360" id="rotateval"><span id="rotate_val"></span>
+            </div>
+        </div>
+        <div class="scale">
+            <label for="scale">Scale</label>
+            <div class="row_row">
+                <input type="range" value="100" min="10" max="200" id="scaleval"><span id="scale_val"></span>
+            </div>
+        </div>
+        <div class="skew">
+            <label for="skew">Skew</label>
+            <div class="row_row">
+                <input type="range" value="0" min="-180" max="180" id="skewval"><span id="skew_val"></span>
+            </div>
+        </div>
+        <div class="translatex">
+            <label for="transx">Translate X</label>
+            <div class="row_row">
+                <input type="range" value="0" min="-200" max="200" id="translate_x"><span id="translate_valx"></span>
+            </div>
+        </div>
+        <div class="translatey">
+            <label for="transy">Translate Y</label>
+            <div class="row_row">
+                <input type="range" value="0" min="-200" max="200" id="translate_y"><span id="translate_valy"></span>
+            </div>
+        </div>
+
+
+    </div>
+    <!--container 2-->
+    <div class="container2">
+        <div class="tool1"></div>
+        <div class="syntax1">
+            <p><b style="font-weight: 700; margin-left:3px;">Syntax:</b>transform: rotate(angle) scale(x,y)
+                skew(x-angle,y-angle) translate(x,y);
+            </p>
+        </div>
+        <div class="code">
+            <textarea readonly id="lang"></textarea>
+        </div>
+        <button id="btncopy">Copy</button>
+    </div>
+    <script src="/jsfunctions/transform_css.js"></script>
+</body>
+
+</html>
